@@ -1,0 +1,11 @@
+{
+  "name": "FDE 成长手册",
+  "short_name": "FDE 手册",
+  "description": "从工程能力、客户发现和 AI 项目交付，到作品集与面试的 FDE 公开教程。",
+  "lang": "zh-CN",
+  "start_url": "/fde-learning/",
+  "scope": "/fde-learning/",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#080b12"
+}

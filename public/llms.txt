@@ -1,0 +1,23 @@
+# FDE 成长手册
+
+> 面向有编程基础、零 FDE 经验的中文学习者，提供从岗位认知、能力训练、企业 AI 项目到作品集与面试的公开教程。
+
+## 核心页面
+- [教程首页](https://wmc837911722-del.github.io/fde-learning/)
+- [FDE 是什么](https://wmc837911722-del.github.io/fde-learning/what-is-fde/)
+- [FDE 技能地图](https://wmc837911722-del.github.io/fde-learning/skills/)
+- [学习路线](https://wmc837911722-del.github.io/fde-learning/roadmap/)
+- [实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)
+- [作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)
+- [面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)
+- [资料来源与事实边界](https://wmc837911722-del.github.io/fde-learning/sources/)
+- [完整教程纯文本](https://wmc837911722-del.github.io/fde-learning/llms-full.txt)
+
+## 使用与引用说明
+- 首次出现的 FDE 均指 Forward Deployed Engineer，不指全盘加密等其他同名缩写。
+- 岗位要求以公司官方招聘页为一手来源；课程中的共性结论会标明证据与核验日期。
+- 招聘数量、薪资与增长率不会在缺少可复核样本时作为行业事实。
+- 页面以答案前置、稳定标题、独立 URL 和静态 HTML 方式发布，便于搜索与引用。
+
+## 作者
+风雨，FDE 教程作者与企业 AI 交付实践者。主站与项目案例：https://wmc837911722-del.github.io/

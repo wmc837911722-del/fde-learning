@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1160" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101834"/>
+      <stop offset="0.48" stop-color="#080B12"/>
+      <stop offset="1" stop-color="#11162A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(962 100) rotate(135) scale(520 430)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D6BFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#4D6BFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="28" fill="url(#glow)"/>
+  <rect x="72" y="68" width="70" height="70" rx="17" fill="#080B12" stroke="#7288FF" stroke-width="3"/>
+  <path d="M89 87H126V96H99V104H120V113H99V124H89V87Z" fill="#F8F8F4"/>
+  <circle cx="126" cy="124" r="7" fill="#7288FF"/>
+  <text x="166" y="114" fill="#C8CDD8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="650">FDE 成长手册</text>
+  <text x="72" y="282" fill="#F8F8F4" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="74" font-weight="800" letter-spacing="-2">如何成为 FDE</text>
+  <text x="72" y="362" fill="#E7E9EF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" font-weight="550">从岗位认知，到可验证的客户交付</text>
+  <rect x="72" y="444" width="682" height="1" fill="#303846"/>
+  <text x="72" y="505" fill="#9BA3B2" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27">技能地图 · 学习路线 · 企业 AI 项目 · 作品集 · 面试</text>
+  <text x="72" y="565" fill="#7288FF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23">wmc837911722-del.github.io/fde-learning/</text>
+</svg>
