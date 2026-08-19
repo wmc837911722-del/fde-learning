@@ -11,6 +11,14 @@ const pages = [
   ["what-is-fde/index.html", `${baseUrl}/what-is-fde/`],
   ["skills/index.html", `${baseUrl}/skills/`],
   ["roadmap/index.html", `${baseUrl}/roadmap/`],
+  [
+    "course/week-01-role-baseline/index.html",
+    `${baseUrl}/course/week-01-role-baseline/`,
+  ],
+  [
+    "course/week-02-stakeholder-discovery/index.html",
+    `${baseUrl}/course/week-02-stakeholder-discovery/`,
+  ],
   ["projects/index.html", `${baseUrl}/projects/`],
   ["portfolio/index.html", `${baseUrl}/portfolio/`],
   ["interview/index.html", `${baseUrl}/interview/`],
@@ -91,6 +99,13 @@ for (const file of [
 }
 
 const homeHtml = renderedPages.find(([path]) => path === "index.html")?.[2] ?? "";
+const roadmapHtml = renderedPages.find(([path]) => path === "roadmap/index.html")?.[2] ?? "";
+if (!homeHtml.includes("课程方向已经固定")) {
+  failures.push("Home page is missing the fixed course direction statement");
+}
+if (!roadmapHtml.includes("课程北极星：战略、一线与工程必须贯通")) {
+  failures.push("Roadmap is missing the course north-star statement");
+}
 const structuredDataBlocks = [...homeHtml.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
 if (structuredDataBlocks.length === 0) failures.push("Missing JSON-LD on the home page");
 for (const [, json] of structuredDataBlocks) {
