@@ -43,6 +43,16 @@ lastUpdated: 2026-08-19
 模型、API 和评测工具会持续更新。本教程教授可迁移的评测方法、数据集和回归流程；实际实现时，请重新核对供应商的当前官方文档与版本说明。
 :::
 
+## 客户发现与业务判断资料
+
+- [GOV.UK — Start by learning user needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)：从用户、当前行为与问题开始，不把利益相关者提出的方案直接写成用户需要。
+- [GOV.UK — How the discovery phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works)：Discovery 中的问题、范围、约束、数据和停止判断。其公共服务语境不能代替企业采购与商业判断。
+- [Google PAIR — Identify user needs and AI strengths](https://pair.withgoogle.com/guidebook/chapters/user-needs-and-defining-success/identify-user-needs-and-ai-strengths)：识别用户情境、绘制现有工作流，并比较 AI、规则与人工方案。
+- [Palantir — A Day in the Life of an FDSE](https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1)：客户协作、领域学习、工程与产品反馈的团队实践；同时具有招聘传播目的。
+- [Ramp — Forward Deployed Engineering](https://builders.ramp.com/post/forward-deployed-engineering)：持续范围判断、直接接触用户和以客户结果衡量工作的团队实践；同时具有公司文化与招聘传播目的。
+
+本教程中的“双层对话”“商业五问”和证据翻译板是综合上述资料形成的原创教学工具，不是任何机构发布的统一 FDE 方法。
+
 ## 搜索与生成式引用原则
 
 为了同时服务传统搜索和生成式搜索，本教程遵循以下写法：

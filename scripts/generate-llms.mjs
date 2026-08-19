@@ -8,6 +8,16 @@ const pages = [
   ["FDE 是什么", "what-is-fde/", "src/content/docs/what-is-fde.md"],
   ["FDE 技能地图", "skills/", "src/content/docs/skills.md"],
   ["学习路线", "roadmap/", "src/content/docs/roadmap.md"],
+  [
+    "第 1 周：锁定目标岗位与双层对话基线",
+    "course/week-01-role-baseline/",
+    "src/content/docs/course/week-01-role-baseline.md",
+  ],
+  [
+    "第 2 周：连接战略目标与一线真实工作",
+    "course/week-02-stakeholder-discovery/",
+    "src/content/docs/course/week-02-stakeholder-discovery.md",
+  ],
   ["实战项目", "projects/", "src/content/docs/projects.md"],
   ["作品集", "portfolio/", "src/content/docs/portfolio.md"],
   ["面试准备", "interview/", "src/content/docs/interview.md"],

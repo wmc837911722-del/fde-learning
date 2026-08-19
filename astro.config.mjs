@@ -13,7 +13,7 @@ export default defineConfig({
     starlight({
       title: "FDE 成长手册",
       description:
-        "面向有编程基础、零 FDE 经验的学习者：从岗位认知、能力训练和企业 AI 项目，到作品集与面试。",
+        "面向有编程基础、零 FDE 经验的学习者：贯通商业战略、一线工作流、工程交付、作品集与面试。",
       locales: {
         root: { label: "简体中文", lang: "zh-CN" },
       },
@@ -41,6 +41,13 @@ export default defineConfig({
             { slug: "what-is-fde" },
             { slug: "skills" },
             { slug: "roadmap" },
+          ],
+        },
+        {
+          label: "20–28 周正式教程",
+          items: [
+            { slug: "course/week-01-role-baseline" },
+            { slug: "course/week-02-stakeholder-discovery" },
           ],
         },
         {
@@ -171,7 +178,7 @@ export default defineConfig({
                 "@id": `${SITE_URL}${BASE_PATH}/#course`,
                 name: "如何成为 FDE：从工程基础到求职证据",
                 description:
-                  "面向有编程基础、零 FDE 经验的学习者，覆盖客户发现、AI 应用、生产交付、作品集与面试。",
+                  "面向有编程基础、零 FDE 经验的学习者，训练从商业决策与一线工作证据走到 AI 应用、生产交付、作品集与面试。",
                 url: `${SITE_URL}${BASE_PATH}/`,
                 inLanguage: "zh-CN",
                 isAccessibleForFree: true,
@@ -186,6 +193,7 @@ export default defineConfig({
                 provider: { "@id": `${SITE_URL}/#person` },
                 teaches: [
                   "Forward Deployed Engineering",
+                  "商业目标与一线工作流发现",
                   "企业 AI 应用工程",
                   "客户发现与项目范围",
                   "RAG、Agent 与 MCP",

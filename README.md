@@ -6,12 +6,18 @@
 
 > 岗位认知 → 能力差距 → 客户发现 → 工程交付 → AI 评测与生产化 → 作品集 → 面试
 
+## 不可漂移的课程方向
+
+本课程培养的 FDE 必须能向上与老板讨论商业结果、战略优先级、价值机制和风险，向下与一线员工还原真实任务、系统使用、绕路和异常，再亲手把两边的证据转成可交付、可验证、可运营的工程系统。
+
+后续课程、模板和项目均受网站首页的课程北极星与学习路线阶段边界约束。除非仓库所有者明确要求改变方向，新增内容只能细化这条主线，不能改成纯商业课程、纯访谈课程或纯技术工具课程。
+
 在线阅读：<https://wmc837911722-del.github.io/fde-learning/>
 
 ## 你会得到什么
 
 - 一份基于官方招聘信息整理的 FDE 岗位定义与能力矩阵；
-- 一条适合在职学习的 20–28 周路线，以及边界明确的 12 周强化版；
+- 一条适合在职学习、阶段依赖明确的 20、24 或 28 周路线；
 - 三个递进式项目，其中 Capstone 是企业 RAG + MCP 助手；
 - 可直接复制的 Discovery Brief、Eval Plan 和项目评分模板；
 - 从项目证据到作品集叙事、面试准备的完整方法。
@@ -23,8 +29,10 @@
 1. [FDE 是什么](https://wmc837911722-del.github.io/fde-learning/what-is-fde/)
 2. [FDE 能力矩阵](https://wmc837911722-del.github.io/fde-learning/skills/)
 3. [20–28 周学习路线](https://wmc837911722-del.github.io/fde-learning/roadmap/)
-4. [FDE 实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)
-5. [作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)与[面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)
+4. [第 1 周：岗位与双层对话基线](https://wmc837911722-del.github.io/fde-learning/course/week-01-role-baseline/)
+5. [第 2 周：连接战略与一线真实工作](https://wmc837911722-del.github.io/fde-learning/course/week-02-stakeholder-discovery/)
+6. [FDE 实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)
+7. [作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)与[面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)
 
 ## 项目模板
 

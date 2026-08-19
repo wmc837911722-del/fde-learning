@@ -1,12 +1,14 @@
 # FDE 成长手册
 
-> 面向有编程基础、零 FDE 经验的中文学习者，提供从岗位认知、能力训练、企业 AI 项目到作品集与面试的公开教程。
+> 面向有编程基础、零 FDE 经验的中文学习者，训练从老板的商业与战略决策、一线员工的真实工作证据，走到企业 AI 工程交付、作品集与面试。
 
 ## 核心页面
 - [教程首页](https://wmc837911722-del.github.io/fde-learning/)
 - [FDE 是什么](https://wmc837911722-del.github.io/fde-learning/what-is-fde/)
 - [FDE 技能地图](https://wmc837911722-del.github.io/fde-learning/skills/)
 - [学习路线](https://wmc837911722-del.github.io/fde-learning/roadmap/)
+- [第 1 周：锁定目标岗位与双层对话基线](https://wmc837911722-del.github.io/fde-learning/course/week-01-role-baseline/)
+- [第 2 周：连接战略目标与一线真实工作](https://wmc837911722-del.github.io/fde-learning/course/week-02-stakeholder-discovery/)
 - [实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)
 - [作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)
 - [面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)
