@@ -1,6 +1,7 @@
 # FDE 成长手册
 
 > 面向有编程基础、零 FDE 经验的中文学习者，训练从老板的商业与战略决策、一线员工的真实工作证据，走到企业 AI 工程交付、作品集与面试。
+> 课程以 24 周为标准路线；当前正式教程发布至第 20 周，第 21–24 周仍属于未完成的 Capstone 阶段。
 
 ## 核心页面
 - [教程首页](https://wmc837911722-del.github.io/fde-learning/)
@@ -9,6 +10,24 @@
 - [学习路线](https://wmc837911722-del.github.io/fde-learning/roadmap/)
 - [第 1 周：锁定目标岗位与双层对话基线](https://wmc837911722-del.github.io/fde-learning/course/week-01-role-baseline/)
 - [第 2 周：连接战略目标与一线真实工作](https://wmc837911722-del.github.io/fde-learning/course/week-02-stakeholder-discovery/)
+- [第 3 周：核对证据，建立受限基线](https://wmc837911722-del.github.io/fde-learning/course/week-03-evidence-baseline/)
+- [第 4 周：形成可决策的 Discovery Brief](https://wmc837911722-del.github.io/fde-learning/course/week-04-discovery-brief/)
+- [第 5 周：实现确定性垂直薄片](https://wmc837911722-del.github.io/fde-learning/course/week-05-deterministic-vertical-slice/)
+- [第 6 周：建立可靠、幂等、可重放的数据入口](https://wmc837911722-del.github.io/fde-learning/course/week-06-reliable-data-ingestion/)
+- [第 7 周：完成一线角色、服务端权限与任务闭环](https://wmc837911722-del.github.io/fde-learning/course/week-07-frontline-task-permissions/)
+- [第 8 周：让发布可重复、可回退](https://wmc837911722-del.github.io/fde-learning/course/week-08-repeatable-deployment/)
+- [第 9 周：先治理 RAG 语料](https://wmc837911722-del.github.io/fde-learning/course/week-09-governed-rag-corpus/)
+- [第 10 周：冻结评测合同](https://wmc837911722-del.github.io/fde-learning/course/week-10-evaluation-contract/)
+- [第 11 周：建立并诊断检索基线](https://wmc837911722-del.github.io/fde-learning/course/week-11-retrieval-baseline/)
+- [第 12 周：完成有引用的 RAG 评测](https://wmc837911722-del.github.io/fde-learning/course/week-12-cited-rag-evaluation/)
+- [第 13 周：建立只读 MCP 边界](https://wmc837911722-del.github.io/fde-learning/course/week-13-read-only-mcp/)
+- [第 14 周：实现逐次批准的单一写操作](https://wmc837911722-del.github.io/fde-learning/course/week-14-approved-write-action/)
+- [第 15 周：对抗并恢复受控工具](https://wmc837911722-del.github.io/fde-learning/course/week-15-adversarial-tool-safety/)
+- [第 16 周：区分离线质量与任务运行信号](https://wmc837911722-del.github.io/fde-learning/course/week-16-task-observability/)
+- [第 17 周：让依赖故障进入安全降级路径](https://wmc837911722-del.github.io/fde-learning/course/week-17-safe-degradation/)
+- [第 18 周：把服务交给别人运行](https://wmc837911722-del.github.io/fde-learning/course/week-18-operations-handoff/)
+- [第 19 周：冻结 Capstone 的问题与风险合同](https://wmc837911722-del.github.io/fde-learning/course/week-19-capstone-problem-contract/)
+- [第 20 周：接通 Capstone 数据与访问边界](https://wmc837911722-del.github.io/fde-learning/course/week-20-capstone-data-access/)
 - [实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)
 - [作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)
 - [面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)

@@ -1,9 +1,9 @@
 ---
-title: FDE 学习路线：20–28 周
-description: 面向已有开发经验者的可执行路线，从客户发现、数据与应用工程，一直走到 AI 评测、生产运维和可验证作品集。
+title: FDE 学习路线：24 周标准路线
+description: 面向已有开发经验者的 24 周 FDE 可执行路线，并提供 20 周加速与 28 周稳健节奏，从客户发现走到可验证作品集。
 sidebar:
   order: 3
-lastUpdated: 2026-08-19
+lastUpdated: 2026-08-25
 ---
 
 本页所说的 FDE，是 **Forward Deployed Engineer（前沿部署工程师 / 前线部署工程师）**，不是 Full Disk Encryption（全盘加密）。这不是一张“学完技术名词就能应聘”的清单：岗位核心是在客户现场或近客户环境中，把模糊问题变成可以验收、可以运营、可以交接的系统。
@@ -29,7 +29,7 @@ Palantir 的 FDSE 招聘说明强调端到端执行、客户协作、架构设�
 
 ## 适合谁
 
-这条 20–28 周路线默认你已经能够：
+这条路线以 **24 周为标准**；只有满足对应前置条件时，才压缩为 20 周或扩展为 28 周。它默认你已经能够：
 
 - 用 Python、TypeScript、Java 或同类语言独立完成一个中小型服务；
 - 使用 Git，理解 HTTP API、SQL、基本测试和命令行；
@@ -62,6 +62,33 @@ Palantir 的 FDSE 招聘说明强调端到端执行、客户协作、架构设�
 压缩的是练习数量和并行方式，不是验收标准。某一阶段未通过，就不要用日历日期假装已经毕业。
 
 ## 24 周标准路线
+
+### 已公开教程索引
+
+第 3–20 周已经展开为学习者可以按步骤执行的教程；第 21–24 周继续保留在 Capstone 阶段，不能把第 20 周当成毕业。第 5 周起的工程教程提供完整行为合同、合成输入、预期状态、失败恢复与验收标准，但仓库目前不附带固定技术栈的代码 starter；你需要使用自己掌握的技术栈完成实现，并把实际结果与页面中的合成完成例分开。
+
+| 周次 | 公开教程 | 本周形成的可观察结果 |
+| ---: | --- | --- |
+| 1 | [锁定目标岗位与双层对话基线](../course/week-01-role-baseline/) | 目标岗位与个人证据缺口 |
+| 2 | [连接战略目标与一线真实工作](../course/week-02-stakeholder-discovery/) | 第一次跨层证据循环 |
+| 3 | [建立证据基线并核对矛盾](../course/week-03-evidence-baseline/) | 观察被补证、反驳或保留为未知 |
+| 4 | [用 Discovery Brief 作范围决定](../course/week-04-discovery-brief/) | 继续、补证、非技术改进或停止决定 |
+| 5 | [构建确定性垂直薄片](../course/week-05-deterministic-vertical-slice/) | 一个成功路径与一个异常路径 |
+| 6 | [建立可靠数据入口](../course/week-06-reliable-data-ingestion/) | 重复、无效和重放可追溯 |
+| 7 | [把权限放进一线任务](../course/week-07-frontline-task-permissions/) | 用户确认、拒绝或升级，服务端执行授权 |
+| 8 | [让发布可重复、可回退](../course/week-08-repeatable-deployment/) | 新环境部署与任务级回滚证据 |
+| 9 | [先治理 RAG 语料](../course/week-09-governed-rag-corpus/) | 来源、版本、有效期、所有者和 ACL 合同 |
+| 10 | [冻结评测合同](../course/week-10-evaluation-contract/) | 失败类型、指标、门槛和数据集版本 |
+| 11 | [建立并诊断检索基线](../course/week-11-retrieval-baseline/) | 关键词与向量候选的逐例比较 |
+| 12 | [完成有引用的 RAG 评测](../course/week-12-cited-rag-evaluation/) | 回答、拒答、升级与阶段决定 |
+| 13 | [建立只读 MCP 边界](../course/week-13-read-only-mcp/) | 读取受限业务上下文但不产生外部效果 |
+| 14 | [实现逐次批准的单一写操作](../course/week-14-approved-write-action/) | 预览、审批、幂等、执行与核验闭环 |
+| 15 | [对抗并恢复受控工具](../course/week-15-adversarial-tool-safety/) | 注入、撤销、断连和对账不会扩大影响 |
+| 16 | [区分离线质量与任务运行信号](../course/week-16-task-observability/) | 一次任务可还原版本、判断与终态 |
+| 17 | [让依赖故障进入安全降级路径](../course/week-17-safe-degradation/) | 模型、索引与 MCP 故障进入预定义状态 |
+| 18 | [把服务交给别人运行](../course/week-18-operations-handoff/) | 非作者完成诊断、止损、回滚与任务复验 |
+| 19 | [冻结 Capstone 问题与风险合同](../course/week-19-capstone-problem-contract/) | M0 商业问题、一线任务与风险边界 |
+| 20 | [接通 Capstone 数据与访问边界](../course/week-20-capstone-data-access/) | M1 固定矩阵中的检索候选权限基线 |
 
 ### 第 1 周：建立基线与目标岗位
 

@@ -4,7 +4,7 @@ description: 用一次业务负责人访谈和一次一线任务观察开始 FDE
 sidebar:
   label: 第 2 周：双层 Discovery
   order: 2
-lastUpdated: 2026-08-19
+lastUpdated: 2026-08-25
 ---
 
 > **直接答案：** FDE 做客户发现时，既不能只听老板讲战略，也不能只收集一线员工的抱怨。你要先弄清老板准备做什么业务决定，再进入一线员工最近完成的真实任务，最后把两边的说法放到同一条证据链上。第 2 周的结果不是技术方案，而是第一版工作流、商业假设和下一轮研究计划。
@@ -19,7 +19,7 @@ lastUpdated: 2026-08-19
 
 ## 先明确：第 2 周只是 Discovery 的第一次循环
 
-[20–28 周路线](../../roadmap/)把客户发现与问题定义安排在第 2–4 周。三周的递进关系是：
+[24 周标准路线](../../roadmap/)把客户发现与问题定义安排在第 2–4 周；20 周与 28 周只是不同节奏。三周的递进关系是：
 
 | 周次 | 主要问题 | 本周能形成什么 | 本周不能冒充什么 |
 | --- | --- | --- | --- |
@@ -675,7 +675,7 @@ fde-course/
 
 ## 下一步
 
-通过后进入第 3 周：增加样本、补访流程和数据所有者、核对任务频率与基线。现在不要打开完整 [`Discovery Brief`](https://github.com/wmc837911722-del/fde-learning/blob/main/templates/discovery-brief.md) 填答案；到第 4 周形成足够证据后再使用。
+通过后进入[第 3 周：核对证据并建立受限基线](../week-03-evidence-baseline/)：增加样本、补访流程和数据所有者、核对任务频率与基线。现在不要打开完整 [`Discovery Brief`](https://github.com/wmc837911722-del/fde-learning/blob/main/templates/discovery-brief.md) 填答案；到第 4 周形成足够证据后再使用。
 
 ## 来源与事实边界
 

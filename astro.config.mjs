@@ -44,10 +44,28 @@ export default defineConfig({
           ],
         },
         {
-          label: "20–28 周正式教程",
+          label: "24 周标准教程",
           items: [
             { slug: "course/week-01-role-baseline" },
             { slug: "course/week-02-stakeholder-discovery" },
+            { slug: "course/week-03-evidence-baseline" },
+            { slug: "course/week-04-discovery-brief" },
+            { slug: "course/week-05-deterministic-vertical-slice" },
+            { slug: "course/week-06-reliable-data-ingestion" },
+            { slug: "course/week-07-frontline-task-permissions" },
+            { slug: "course/week-08-repeatable-deployment" },
+            { slug: "course/week-09-governed-rag-corpus" },
+            { slug: "course/week-10-evaluation-contract" },
+            { slug: "course/week-11-retrieval-baseline" },
+            { slug: "course/week-12-cited-rag-evaluation" },
+            { slug: "course/week-13-read-only-mcp" },
+            { slug: "course/week-14-approved-write-action" },
+            { slug: "course/week-15-adversarial-tool-safety" },
+            { slug: "course/week-16-task-observability" },
+            { slug: "course/week-17-safe-degradation" },
+            { slug: "course/week-18-operations-handoff" },
+            { slug: "course/week-19-capstone-problem-contract" },
+            { slug: "course/week-20-capstone-data-access" },
           ],
         },
         {
@@ -182,7 +200,7 @@ export default defineConfig({
                 url: `${SITE_URL}${BASE_PATH}/`,
                 inLanguage: "zh-CN",
                 isAccessibleForFree: true,
-                dateModified: "2026-08-19",
+                dateModified: "2026-08-25",
                 coursePrerequisites:
                   "能够使用至少一种编程语言完成基础程序，并理解 Git、HTTP API 与数据库的基本概念。",
                 audience: {

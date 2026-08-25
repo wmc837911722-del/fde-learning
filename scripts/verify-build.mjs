@@ -19,6 +19,78 @@ const pages = [
     "course/week-02-stakeholder-discovery/index.html",
     `${baseUrl}/course/week-02-stakeholder-discovery/`,
   ],
+  [
+    "course/week-03-evidence-baseline/index.html",
+    `${baseUrl}/course/week-03-evidence-baseline/`,
+  ],
+  [
+    "course/week-04-discovery-brief/index.html",
+    `${baseUrl}/course/week-04-discovery-brief/`,
+  ],
+  [
+    "course/week-05-deterministic-vertical-slice/index.html",
+    `${baseUrl}/course/week-05-deterministic-vertical-slice/`,
+  ],
+  [
+    "course/week-06-reliable-data-ingestion/index.html",
+    `${baseUrl}/course/week-06-reliable-data-ingestion/`,
+  ],
+  [
+    "course/week-07-frontline-task-permissions/index.html",
+    `${baseUrl}/course/week-07-frontline-task-permissions/`,
+  ],
+  [
+    "course/week-08-repeatable-deployment/index.html",
+    `${baseUrl}/course/week-08-repeatable-deployment/`,
+  ],
+  [
+    "course/week-09-governed-rag-corpus/index.html",
+    `${baseUrl}/course/week-09-governed-rag-corpus/`,
+  ],
+  [
+    "course/week-10-evaluation-contract/index.html",
+    `${baseUrl}/course/week-10-evaluation-contract/`,
+  ],
+  [
+    "course/week-11-retrieval-baseline/index.html",
+    `${baseUrl}/course/week-11-retrieval-baseline/`,
+  ],
+  [
+    "course/week-12-cited-rag-evaluation/index.html",
+    `${baseUrl}/course/week-12-cited-rag-evaluation/`,
+  ],
+  [
+    "course/week-13-read-only-mcp/index.html",
+    `${baseUrl}/course/week-13-read-only-mcp/`,
+  ],
+  [
+    "course/week-14-approved-write-action/index.html",
+    `${baseUrl}/course/week-14-approved-write-action/`,
+  ],
+  [
+    "course/week-15-adversarial-tool-safety/index.html",
+    `${baseUrl}/course/week-15-adversarial-tool-safety/`,
+  ],
+  [
+    "course/week-16-task-observability/index.html",
+    `${baseUrl}/course/week-16-task-observability/`,
+  ],
+  [
+    "course/week-17-safe-degradation/index.html",
+    `${baseUrl}/course/week-17-safe-degradation/`,
+  ],
+  [
+    "course/week-18-operations-handoff/index.html",
+    `${baseUrl}/course/week-18-operations-handoff/`,
+  ],
+  [
+    "course/week-19-capstone-problem-contract/index.html",
+    `${baseUrl}/course/week-19-capstone-problem-contract/`,
+  ],
+  [
+    "course/week-20-capstone-data-access/index.html",
+    `${baseUrl}/course/week-20-capstone-data-access/`,
+  ],
   ["projects/index.html", `${baseUrl}/projects/`],
   ["portfolio/index.html", `${baseUrl}/portfolio/`],
   ["interview/index.html", `${baseUrl}/interview/`],
@@ -160,7 +232,7 @@ try {
 const llmsFull = existsSync(join(dist, "llms-full.txt"))
   ? readFileSync(join(dist, "llms-full.txt"), "utf8")
   : "";
-if (!llmsFull.includes("Forward Deployed Engineer") || !llmsFull.includes("核验基线：2026-08-19")) {
+if (!llmsFull.includes("Forward Deployed Engineer") || !llmsFull.includes("核验基线：2026-08-25")) {
   failures.push("llms-full.txt is missing entity disambiguation or its verification baseline");
 }
 for (const match of llmsFull.matchAll(/!?\[[^\]]*\]\(([^)]+)\)/g)) {

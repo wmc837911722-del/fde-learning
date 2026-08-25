@@ -17,7 +17,7 @@
 ## 你会得到什么
 
 - 一份基于官方招聘信息整理的 FDE 岗位定义与能力矩阵；
-- 一条适合在职学习、阶段依赖明确的 20、24 或 28 周路线；
+- 一条以 24 周为标准、可按前置条件调整为 20 或 28 周的路线；
 - 三个递进式项目，其中 Capstone 是企业 RAG + MCP 助手；
 - 可直接复制的 Discovery Brief、Eval Plan 和项目评分模板；
 - 从项目证据到作品集叙事、面试准备的完整方法。
@@ -28,11 +28,14 @@
 
 1. [FDE 是什么](https://wmc837911722-del.github.io/fde-learning/what-is-fde/)
 2. [FDE 能力矩阵](https://wmc837911722-del.github.io/fde-learning/skills/)
-3. [20–28 周学习路线](https://wmc837911722-del.github.io/fde-learning/roadmap/)
-4. [第 1 周：岗位与双层对话基线](https://wmc837911722-del.github.io/fde-learning/course/week-01-role-baseline/)
-5. [第 2 周：连接战略与一线真实工作](https://wmc837911722-del.github.io/fde-learning/course/week-02-stakeholder-discovery/)
-6. [FDE 实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)
-7. [作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)与[面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)
+3. [24 周标准学习路线](https://wmc837911722-del.github.io/fde-learning/roadmap/)
+4. 第 1–4 周：[岗位基线](https://wmc837911722-del.github.io/fde-learning/course/week-01-role-baseline/) → [双层 Discovery](https://wmc837911722-del.github.io/fde-learning/course/week-02-stakeholder-discovery/) → [证据基线](https://wmc837911722-del.github.io/fde-learning/course/week-03-evidence-baseline/) → [Discovery Brief](https://wmc837911722-del.github.io/fde-learning/course/week-04-discovery-brief/)
+5. 第 5–8 周：[确定性薄片](https://wmc837911722-del.github.io/fde-learning/course/week-05-deterministic-vertical-slice/) → [可靠数据入口](https://wmc837911722-del.github.io/fde-learning/course/week-06-reliable-data-ingestion/) → [一线任务权限](https://wmc837911722-del.github.io/fde-learning/course/week-07-frontline-task-permissions/) → [可重复部署](https://wmc837911722-del.github.io/fde-learning/course/week-08-repeatable-deployment/)
+6. 第 9–12 周：[受治理语料](https://wmc837911722-del.github.io/fde-learning/course/week-09-governed-rag-corpus/) → [评测合同](https://wmc837911722-del.github.io/fde-learning/course/week-10-evaluation-contract/) → [检索基线](https://wmc837911722-del.github.io/fde-learning/course/week-11-retrieval-baseline/) → [有引用 RAG 评测](https://wmc837911722-del.github.io/fde-learning/course/week-12-cited-rag-evaluation/)
+7. 第 13–15 周：[只读 MCP](https://wmc837911722-del.github.io/fde-learning/course/week-13-read-only-mcp/) → [批准写操作](https://wmc837911722-del.github.io/fde-learning/course/week-14-approved-write-action/) → [工具安全](https://wmc837911722-del.github.io/fde-learning/course/week-15-adversarial-tool-safety/)
+8. 第 16–18 周：[任务可观察性](https://wmc837911722-del.github.io/fde-learning/course/week-16-task-observability/) → [安全降级](https://wmc837911722-del.github.io/fde-learning/course/week-17-safe-degradation/) → [运营交接](https://wmc837911722-del.github.io/fde-learning/course/week-18-operations-handoff/)
+9. 第 19–20 周：[Capstone M0](https://wmc837911722-del.github.io/fde-learning/course/week-19-capstone-problem-contract/) → [Capstone M1](https://wmc837911722-del.github.io/fde-learning/course/week-20-capstone-data-access/)；第 21–24 周继续按标准路线完成。
+10. [FDE 实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)、[作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)与[面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)
 
 ## 项目模板
 
