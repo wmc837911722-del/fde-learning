@@ -1,6 +1,6 @@
 # FDE 成长手册
 
-一套面向**已有编程基础、零 FDE 经验**学习者的中文开源教程。这里的 FDE 指 **Forward Deployed Engineer（前沿部署工程师 / 前线部署工程师）**。
+一套面向**已有编程基础、零 FDE 经验**学习者的中文公开教程，第 1–24 周均已发布。这里的 FDE 指 **Forward Deployed Engineer（前沿部署工程师 / 前线部署工程师）**。使用与转载边界见文末许可说明。
 
 教程不以背诵工具清单为目标，而是沿着真实岗位要求完成一条可验证路径：
 
@@ -85,7 +85,11 @@ pnpm test
 
 ## 反馈与合作
 
-发现事实变化、失效链接或教程缺口，欢迎提交 Issue。真实项目案例与 AI 落地合作入口位于[作者主站](https://wmc837911722-del.github.io/)。
+发现事实变化、失效链接或教程缺口，欢迎提交 Issue。
+
+如果你是企业的业务或技术负责人，正在处理企业知识库回答不可靠、业务系统接入困难、重复手工操作，或 AI Demo 难以上线与交接等问题，可以先[查看作者的项目经验](https://wmc837911722-del.github.io/?utm_source=github&utm_medium=referral&utm_campaign=fde-business-inquiry&utm_content=readme-cases#case-study)，再[通过邮箱、微信沟通合作](https://wmc837911722-del.github.io/?utm_source=github&utm_medium=referral&utm_campaign=fde-business-inquiry&utm_content=readme-contact#contact)。
+
+第一条消息可以这样写：“我们团队的【角色】在【业务流程】中，使用【现有系统】，目前卡在【具体步骤】，希望改善【结果】。我是从 FDE 教程仓库看到你的。”这是沟通模板，不是客户案例；具体合作范围、排期和费用另行确认。
 
 ## 许可
 

@@ -94,6 +94,21 @@ fde-readiness/
 
 如果你想先看这些能力如何进入真实交付场景，可以查看作者主站的[真实 AI 落地案例](https://wmc837911722-del.github.io/?utm_source=fde-learning&utm_medium=content&utm_campaign=course-index#case-study)。案例用于展示方法如何落地，不替代本教程中的动手练习。
 
+## 你的团队正在解决类似的业务问题吗？
+
+这套教程也可以帮助业务负责人和技术负责人核对项目方案。先选一个最接近的问题，查看对应的判断方法：
+
+| 当前卡点 | 可以先用的教程方法 |
+| --- | --- |
+| 想做 AI，但还没有确定先改哪一步工作 | [把业务目标和一线任务写成可决策的需求范围](./course/week-04-discovery-brief/) |
+| 企业知识库能回答，却不知道答案是否可信、是否越权 | [检查回答来源、拒答与评测结果](./course/week-12-cited-rag-evaluation/) |
+| 希望连接现有系统，又担心自动操作出错 | [核对预览、人工审批、重复请求和执行结果](./course/week-14-approved-write-action/) |
+| 演示已经做好，但上线和后续维护没人接得住 | [用非作者接手验证部署、故障处理与回滚](./course/week-18-operations-handoff/) |
+
+需要项目合作时，可以[查看风雨的项目经验](https://wmc837911722-del.github.io/?utm_source=fde-learning&utm_medium=referral&utm_campaign=business-inquiry&utm_content=home-cases#case-study)，或[通过邮箱、微信沟通你的业务场景](https://wmc837911722-del.github.io/?utm_source=fde-learning&utm_medium=referral&utm_campaign=business-inquiry&utm_content=home-contact#contact)。主站公开介绍了企业知识库、业务系统接入、工作流自动化与生产交付方向。
+
+开始沟通只需描述四件事：**谁在做什么工作、目前卡在哪一步、已有些什么系统、希望改变什么结果**。例如：“运营每天跨 ERP 和库存系统核对订单，异常仍靠群里追问；希望先理清一个异常处理流程，并判断适合怎样接入现有系统。”这是沟通示例，不是已交付客户案例。暂时不需要准备技术方案；合作范围、排期和费用在具体需求澄清后确认。
+
 ## 常见误区
 
 - **把教程当成入职保证。** 岗位要求会因公司、行业、地区和级别变化；教程只能帮助你形成能力与证据。
