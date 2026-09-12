@@ -3,7 +3,7 @@ title: FDE 实战项目
 description: 三个从业务发现到生产交接的实战项目，重点完成企业 RAG + MCP 助手 Capstone，并用可复核证据验收。
 sidebar:
   order: 4
-lastUpdated: 2026-08-19
+lastUpdated: 2026-09-12
 ---
 
 本页所说的 FDE，是 **Forward Deployed Engineer（前沿部署工程师 / 前线部署工程师）**，不是 Full Disk Encryption（全盘加密）。FDE 项目不是功能截图合集；本教程定义的合格项目应当回答：客户为什么需要它、数据从哪里来、什么叫成功、失败时会怎样、谁能执行什么操作，以及上线后由谁运营。
@@ -91,6 +91,8 @@ lastUpdated: 2026-08-19
 
 完整项目合同见[企业 RAG + MCP 项目 README](https://github.com/wmc837911722-del/fde-learning/tree/main/projects/enterprise-rag-mcp)。
 
+按 24 周标准路线执行时，从[第 19 周 Capstone M0](../course/week-19-capstone-problem-contract/)开始，连续完成到[第 24 周受控试点与交接](../course/week-24-capstone-pilot-handoff/)。六周使用同一问题合同、语料版本和风险边界，不要在每个里程碑重新换项目。
+
 如果你的团队正在评估类似的 RAG 或 MCP 落地，但还无法确定场景、范围或验收口径，可以[带着现有流程预约一次项目诊断](https://wmc837911722-del.github.io/?utm_source=fde-learning&utm_medium=content&utm_campaign=capstone#contact)。先判断问题是否值得解决，再决定是否进入原型与生产交付。
 
 ### 必须交付的垂直切片
@@ -143,8 +145,10 @@ lastUpdated: 2026-08-19
 | M1 检索基线 | 数据管道、ACL 过滤、固定评测集、基线报告 | 结果可复现，失败可分类 |
 | M2 安全问答 | 引用、拒答、冲突/过期处理 | 回答与安全门槛达到基线要求 |
 | M3 MCP 动作 | 工具契约、策略、预览、审批、幂等和审计 | 未授权路径无法产生效果 |
-| M4 生产门槛 | 负载、成本、追踪、告警、故障与恢复演练 | 发布清单无硬阻断项 |
-| M5 试点交接 | 用户走查、指标对比、演示、runbook 和复盘 | 新维护者能部署、值守和回滚 |
+| M4 评测与威胁验证 | 封存盲测、人工评分、注入/越权/泄漏测试 | 结果可追溯且没有安全硬阻断 |
+| M5 生产与恢复 | 负载、成本、追踪、告警、故障与恢复演练 | 发布清单无硬阻断项 |
+| M6 受控试点 | 授权试点或明确标注的课程模拟、任务与失败观察 | 继续、缩小或停止建议有证据边界 |
+| M7 交接与复盘 | 演示、ADR、runbook、部署、恢复和交接包 | 新维护者能部署、值守和回滚 |
 
 ## 如何评审项目，而不是评审演示
 

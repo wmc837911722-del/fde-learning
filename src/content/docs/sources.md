@@ -3,14 +3,14 @@ title: 资料来源与事实边界
 description: FDE 成长手册采用的一手岗位、工程实践和安全资料，以及内容核验和引用原则。
 sidebar:
   order: 7
-lastUpdated: 2026-08-19
+lastUpdated: 2026-09-12
 ---
 
 ## 先说结论
 
 本教程把 **FDE** 固定定义为 **Forward Deployed Engineer**，中文同时覆盖“前沿部署工程师”和“前线部署工程师”。课程优先引用公司官方招聘页、官方工程博客和技术规范；媒体报道、课程宣传和社区帖子只能作为线索，不能单独支撑岗位事实。
 
-资料核验日期：**2026-08-19**。
+岗位与基础资料核验基线：**2026-08-19**。第 21–24 周新增的 Capstone 评测、安全与运维来源链接于 **2026-09-12** 再次核验；Google SRE 页面沿用 2026-08-19 的既有核验，本次网络复查超时，因此不把它写成已重新确认。外部内容和版本仍可能变化。
 
 需要从来源回到教程时，可依次阅读[岗位定义](../what-is-fde/)、[能力矩阵](../skills/)、[学习路线](../roadmap/)和[实战项目](../projects/)。
 
@@ -52,6 +52,21 @@ lastUpdated: 2026-08-19
 - [Ramp — Forward Deployed Engineering](https://builders.ramp.com/post/forward-deployed-engineering)：持续范围判断、直接接触用户和以客户结果衡量工作的团队实践；同时具有公司文化与招聘传播目的。
 
 本教程中的“双层对话”“商业五问”和证据翻译板是综合上述资料形成的原创教学工具，不是任何机构发布的统一 FDE 方法。
+
+## Capstone 评测、安全与运维资料
+
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://papers.nips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html)：RAG 的原始研究论文；课程的引用、拒答、权限和门槛是后续教学设计，并非论文规定。
+- [NIST SP 800-162 — Guide to Attribute Based Access Control](https://csrc.nist.gov/pubs/sp/800/162/upd2/final)：依据主体、对象、操作和环境属性作访问控制决策的参考。
+- [Model Context Protocol Specification](https://modelcontextprotocol.io/specification/latest)：MCP Host、Client、Server、能力协商和协议契约；2026-09-12 核验时 `latest` 解析到 2026-07-28 版。
+- [MCP Security Best Practices](https://modelcontextprotocol.io/specification/latest/basic/security_best_practices)：授权、令牌、会话、代理和远程服务器风险参考。
+- [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)：默认拒绝、每次请求检查权限和授权测试原则参考。
+- [NIST AI RMF Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence)：生成式 AI 风险识别、测量和治理参考。
+- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/)：提示注入、敏感信息、供应链、数据或模型投毒、权限与过度代理风险参考。
+- [OpenTelemetry Generative AI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)：模型与 Agent 遥测字段参考；实现时必须检查具体字段的稳定级别。
+- [RAGAS: Automated Evaluation of Retrieval Augmented Generation](https://aclanthology.org/2024.eacl-demo.16/)：RAG 评测维度的研究参考；课程数据分布、门槛和发布决定并非该论文给出的行业标准。
+- [Google SRE：Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)：延迟、流量、错误、饱和度与面向用户症状的运行判断参考；沿用 2026-08-19 核验基线，本次网络复查超时。
+
+这些来源支持协议、威胁、观测与评测方法，不支持本课程虚构的北辰案例、样本数量、阈值或试点结果。课程数字均需标为教学设计，真实项目应由有权角色根据自身任务和风险重新批准。
 
 ## 搜索与生成式引用原则
 

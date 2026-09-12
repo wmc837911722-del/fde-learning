@@ -108,6 +108,26 @@ const pages = [
     "course/week-20-capstone-data-access/",
     "src/content/docs/course/week-20-capstone-data-access.md",
   ],
+  [
+    "第 21 周：完成 Capstone 有引用问答与拒答基线",
+    "course/week-21-capstone-cited-rag/",
+    "src/content/docs/course/week-21-capstone-cited-rag.md",
+  ],
+  [
+    "第 22 周：接入 Capstone 逐次审批的单一 MCP 写效果",
+    "course/week-22-capstone-approved-mcp/",
+    "src/content/docs/course/week-22-capstone-approved-mcp.md",
+  ],
+  [
+    "第 23 周：用证据作出 Capstone 发布决定",
+    "course/week-23-capstone-release-evidence/",
+    "src/content/docs/course/week-23-capstone-release-evidence.md",
+  ],
+  [
+    "第 24 周：完成受控试点、交接与毕业答辩",
+    "course/week-24-capstone-pilot-handoff/",
+    "src/content/docs/course/week-24-capstone-pilot-handoff.md",
+  ],
   ["实战项目", "projects/", "src/content/docs/projects.md"],
   ["作品集", "portfolio/", "src/content/docs/portfolio.md"],
   ["面试准备", "interview/", "src/content/docs/interview.md"],
@@ -130,8 +150,8 @@ const preamble = [
   "# FDE 成长手册：完整教程语料",
   "",
   "> FDE 在本文档中专指 Forward Deployed Engineer（前沿部署工程师/前线部署工程师）。",
-  "> 课程以 24 周为标准路线；当前正式教程发布至第 20 周，第 21–24 周仍属于未完成的 Capstone 阶段。",
-  "> 作者：风雨。核验基线：2026-08-25。完整页面与更新记录以 canonical URL 为准。",
+  "> 课程以 24 周为标准路线；第 1–24 周正式教程均已发布，20 周和 28 周是有前置条件的弹性节奏。",
+  "> 作者：风雨。核验基线：2026-09-12。完整页面与更新记录以 canonical URL 为准。",
   "",
 ].join("\n");
 

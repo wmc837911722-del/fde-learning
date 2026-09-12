@@ -107,7 +107,8 @@ Discovery Brief 必须约定：
 结果使用类型化状态：
 
 - `answered`：有足够证据并通过引用验证；
-- `abstained`：证据不足、冲突、过期或权限不允许；
+- `abstained`：证据不足、过期、撤销或当前角色没有可用的获准证据；
+- `escalate`：当前获准来源冲突，或必须由有权角色沿既有流程接手；它本身不产生外部效果；
 - `action_preview`：工具参数已生成，但还没有外部效果；
 - `action_completed`：审批、执行和完成验证全部通过；
 - `partial`：回答可用，但某个非必要依赖失败；
@@ -118,9 +119,9 @@ Discovery Brief 必须约定：
 ### 运行状态
 
 ```text
-received -> retrieving -> proposing -> verifying -> answered
+received -> retrieving -> proposing -> verifying -> answered | abstained | escalate
                                   └──> awaiting_approval -> executing -> reconciling -> completed
-        └──> cancelled | timed_out | abstained | failed | partial
+        └──> cancelled | timed_out | failed | partial
 ```
 
 状态保存在提示词之外。取消、超时或进程重启后，根据持久化事件和检查点恢复；恢复前检查写工具的幂等键与对账状态。
@@ -180,7 +181,7 @@ MCP 负责标准化能力交换，不负责替代授权、审批、持久化运�
 | M3 MCP 受控动作 | 第 4 周 | MCP Host/Server 契约、预览、审批、写入、幂等、对账 | 未批准、改参数或重放均不产生额外效果 |
 | M4 评测与威胁验证 | 第 5 周 | 盲测集、人工评分、注入/越权/泄漏测试、评测报告 | 无安全硬阻断；质量退化有解释 |
 | M5 生产与恢复 | 第 6 周 | 负载/成本数据、SLO、仪表盘、告警、降级、回滚、恢复演练 | 三类依赖故障进入已定义路径 |
-| M6 受控试点 | 第 7 周 | 小范围用户反馈、采用与失败数据、变更记录 | 上线/继续/停止建议有证据 |
+| M6 受控试点 | 第 7 周 | 授权小范围反馈，或明确标注的课程模拟；任务、失败与变更记录 | 继续、缩小或停止建议有证据边界 |
 | M7 交接与复盘 | 第 8 周 | 演示、ADR、runbook、部署、恢复、客户交接包 | 新维护者能从文档部署、值守和回滚 |
 
 六周版本可以合并 M6 与 M7，但不能删除评测、安全或恢复门槛。没有真实试点条件时，明确标注为“受控模拟”，不要伪造用户或效果数据。

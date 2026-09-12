@@ -1,7 +1,7 @@
 # FDE 成长手册
 
 > 面向有编程基础、零 FDE 经验的中文学习者，训练从老板的商业与战略决策、一线员工的真实工作证据，走到企业 AI 工程交付、作品集与面试。
-> 课程以 24 周为标准路线；当前正式教程发布至第 20 周，第 21–24 周仍属于未完成的 Capstone 阶段。
+> 课程以 24 周为标准路线；第 1–24 周正式教程均已发布，20 周和 28 周是有前置条件的弹性节奏。
 
 ## 核心页面
 - [教程首页](https://wmc837911722-del.github.io/fde-learning/)
@@ -28,6 +28,10 @@
 - [第 18 周：把服务交给别人运行](https://wmc837911722-del.github.io/fde-learning/course/week-18-operations-handoff/)
 - [第 19 周：冻结 Capstone 的问题与风险合同](https://wmc837911722-del.github.io/fde-learning/course/week-19-capstone-problem-contract/)
 - [第 20 周：接通 Capstone 数据与访问边界](https://wmc837911722-del.github.io/fde-learning/course/week-20-capstone-data-access/)
+- [第 21 周：完成 Capstone 有引用问答与拒答基线](https://wmc837911722-del.github.io/fde-learning/course/week-21-capstone-cited-rag/)
+- [第 22 周：接入 Capstone 逐次审批的单一 MCP 写效果](https://wmc837911722-del.github.io/fde-learning/course/week-22-capstone-approved-mcp/)
+- [第 23 周：用证据作出 Capstone 发布决定](https://wmc837911722-del.github.io/fde-learning/course/week-23-capstone-release-evidence/)
+- [第 24 周：完成受控试点、交接与毕业答辩](https://wmc837911722-del.github.io/fde-learning/course/week-24-capstone-pilot-handoff/)
 - [实战项目](https://wmc837911722-del.github.io/fde-learning/projects/)
 - [作品集](https://wmc837911722-del.github.io/fde-learning/portfolio/)
 - [面试准备](https://wmc837911722-del.github.io/fde-learning/interview/)

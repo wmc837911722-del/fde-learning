@@ -66,6 +66,10 @@ export default defineConfig({
             { slug: "course/week-18-operations-handoff" },
             { slug: "course/week-19-capstone-problem-contract" },
             { slug: "course/week-20-capstone-data-access" },
+            { slug: "course/week-21-capstone-cited-rag" },
+            { slug: "course/week-22-capstone-approved-mcp" },
+            { slug: "course/week-23-capstone-release-evidence" },
+            { slug: "course/week-24-capstone-pilot-handoff" },
           ],
         },
         {
@@ -200,7 +204,7 @@ export default defineConfig({
                 url: `${SITE_URL}${BASE_PATH}/`,
                 inLanguage: "zh-CN",
                 isAccessibleForFree: true,
-                dateModified: "2026-08-25",
+                dateModified: "2026-09-12",
                 coursePrerequisites:
                   "能够使用至少一种编程语言完成基础程序，并理解 Git、HTTP API 与数据库的基本概念。",
                 audience: {
@@ -216,6 +220,7 @@ export default defineConfig({
                   "客户发现与项目范围",
                   "RAG、Agent 与 MCP",
                   "AI 评测与生产交付",
+                  "受控试点、上线判断与运营交接",
                 ],
               },
             ],

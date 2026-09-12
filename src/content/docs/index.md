@@ -4,7 +4,7 @@ description: 面向有编程基础、零 FDE 经验读者的证据驱动学习�
 template: splash
 sidebar:
   order: 1
-lastUpdated: 2026-08-25
+lastUpdated: 2026-09-12
 hero:
   title: 成为 FDE
   tagline: 既能和老板谈商业与战略，也能和一线员工还原真实工作，最后亲手交付可用、可评测、可运营的系统。
@@ -72,7 +72,7 @@ FDE 不是全球统一认证的工种。不同公司还会使用 Forward Deploye
 1. 阅读[《FDE 是什么》](./what-is-fde/)，建立岗位简报。
 2. 完成[《FDE 能力矩阵》](./skills/)，只给有证据的能力打分。
 3. 进入[学习路线](./roadmap/)，用目标岗位决定训练顺序。
-4. 从[第 1 周岗位与双层对话基线](./course/week-01-role-baseline/)开始，按[公开教程索引](./roadmap/#已公开教程索引)推进；当前教程已经展开到第 20 周，但标准路线仍保留第 21–24 周。
+4. 从[第 1 周岗位与双层对话基线](./course/week-01-role-baseline/)开始，按[公开教程索引](./roadmap/#已公开教程索引)完成全部 24 周；每个阶段必须通过证据门槛，不能只按日期翻页。
 
 ## 可验证产出
 

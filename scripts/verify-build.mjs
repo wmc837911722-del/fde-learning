@@ -91,6 +91,22 @@ const pages = [
     "course/week-20-capstone-data-access/index.html",
     `${baseUrl}/course/week-20-capstone-data-access/`,
   ],
+  [
+    "course/week-21-capstone-cited-rag/index.html",
+    `${baseUrl}/course/week-21-capstone-cited-rag/`,
+  ],
+  [
+    "course/week-22-capstone-approved-mcp/index.html",
+    `${baseUrl}/course/week-22-capstone-approved-mcp/`,
+  ],
+  [
+    "course/week-23-capstone-release-evidence/index.html",
+    `${baseUrl}/course/week-23-capstone-release-evidence/`,
+  ],
+  [
+    "course/week-24-capstone-pilot-handoff/index.html",
+    `${baseUrl}/course/week-24-capstone-pilot-handoff/`,
+  ],
   ["projects/index.html", `${baseUrl}/projects/`],
   ["portfolio/index.html", `${baseUrl}/portfolio/`],
   ["interview/index.html", `${baseUrl}/interview/`],
@@ -170,6 +186,33 @@ for (const file of [
   if (!existsSync(join(dist, file))) failures.push(`Missing public artifact: ${file}`);
 }
 
+const finalCourseEntries = [
+  [
+    "第 21 周：完成 Capstone 有引用问答与拒答基线",
+    `${baseUrl}/course/week-21-capstone-cited-rag/`,
+  ],
+  [
+    "第 22 周：接入 Capstone 逐次审批的单一 MCP 写效果",
+    `${baseUrl}/course/week-22-capstone-approved-mcp/`,
+  ],
+  [
+    "第 23 周：用证据作出 Capstone 发布决定",
+    `${baseUrl}/course/week-23-capstone-release-evidence/`,
+  ],
+  [
+    "第 24 周：完成受控试点、交接与毕业答辩",
+    `${baseUrl}/course/week-24-capstone-pilot-handoff/`,
+  ],
+];
+const llms = existsSync(join(dist, "llms.txt"))
+  ? readFileSync(join(dist, "llms.txt"), "utf8")
+  : "";
+for (const [title, canonical] of finalCourseEntries) {
+  if (!llms.includes(`[${title}](${canonical})`)) {
+    failures.push(`llms.txt is missing the canonical course entry: ${title}`);
+  }
+}
+
 const homeHtml = renderedPages.find(([path]) => path === "index.html")?.[2] ?? "";
 const roadmapHtml = renderedPages.find(([path]) => path === "roadmap/index.html")?.[2] ?? "";
 if (!homeHtml.includes("课程方向已经固定")) {
@@ -232,8 +275,13 @@ try {
 const llmsFull = existsSync(join(dist, "llms-full.txt"))
   ? readFileSync(join(dist, "llms-full.txt"), "utf8")
   : "";
-if (!llmsFull.includes("Forward Deployed Engineer") || !llmsFull.includes("核验基线：2026-08-25")) {
+if (!llmsFull.includes("Forward Deployed Engineer") || !llmsFull.includes("核验基线：2026-09-12")) {
   failures.push("llms-full.txt is missing entity disambiguation or its verification baseline");
+}
+for (const [title, canonical] of finalCourseEntries) {
+  if (!llmsFull.includes(`# ${title}\n\nCanonical: ${canonical}`)) {
+    failures.push(`llms-full.txt is missing the canonical course section: ${title}`);
+  }
 }
 for (const match of llmsFull.matchAll(/!?\[[^\]]*\]\(([^)]+)\)/g)) {
   const candidate = match[1];
